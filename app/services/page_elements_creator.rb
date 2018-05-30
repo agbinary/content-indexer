@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 
-class PageIndexCreator< ApplicationService
+class PageElementsCreator< ApplicationService
   attr_reader :page
 
   def initialize(page)
